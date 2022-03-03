@@ -1,0 +1,18 @@
+.header-container {
+    display: flex;
+    height: 65px;
+    border-bottom: 1px solid grey;
+    align-items: center;
+}
+
+.header-logo {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 65px;
+    margin-right: 10px;
+}
+
+.header-logo-img {
+    max-width:100%;
+    max-height:100%;
+}
